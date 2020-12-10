@@ -247,9 +247,10 @@ footer .social-links i {
     z-index: 10;
 }
 .newsletter{
-
+    display:flex;
+    align-items: center;
     background-color: #F6F9FE;
-    height: 30vh;
+    height: 23vh;
 }
 .newsletter h3{
     margin-top: 30px;

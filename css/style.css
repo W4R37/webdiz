@@ -101,11 +101,13 @@ p,span,b,strong{
     color:#106EEA ;
 }
 .section-badge{
-  background-color: #acbfe0;
-  color: blue;
+  background-color: #c6d9ffaf;
+  color: #106eeaa2;
   border-radius: 100px;
   padding: .5rem .3rem;
   font-weight: bold;
+  padding: 5px 20px;
+  margin-bottom: 10px;
 }
 .pricing-section .card-body{
     display:flex;
@@ -178,18 +180,66 @@ footer .social-links i {
 .backToTop i{
     font-size: .9rem;
 }
+.icon-carda{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.021);
+    border-radius: 7px;
+    padding: 2rem;
+    transition: all 0.5s;
+}
 .icon-border{
-    justify-content: center;
-    background-color: #acbfe0;
-    width: 50px;
-    height: 50px;
-    min-width: 50px;
-    min-height: 50px;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    background-color: #cdd9ec59;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+.icon-border i{
+    margin-bottom: 0px;
+}
+.services .icon-card {
+    border: solid .5px;
+    border-color: #acbfe056;
+}
+.profile-img{
+    background-image: url(../img/port.jpeg);
+    margin: auto;
+    width: 110px;
+    height: 110px;
+    min-width: 110px;
+    min-height: 110px;
+    border-radius: 500px;
+    border: solid 5px;
+    border-color: rgba(51, 34, 34, 0.26);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.biography{
+    background-image: url('../img/testimonials-bg.jpg');
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index:1;
+    
+}
+.biography p,h3{
+    color:#fff;
+}
+.img-black{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(31, 20, 20, 0.658);
+    z-index: 0;
+}
+.biography .container{
+    position: relative;
+    z-index: 10;
+}
 /* Responsive --------------------------*/
 
 

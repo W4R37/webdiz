@@ -154,6 +154,9 @@ footer .social-links i {
     padding: .5rem;
     border-radius:  5px ;
 }
+.card{
+    width: 100%;
+}
 .copy{
     position: relative;
     background-color: #F6F9FE;

@@ -1,0 +1,23 @@
+body {
+  background-color: #2b558b;
+}
+
+.canvas-wrapper {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  .canvas-wrap {
+    text-align: center;
+    width: 30%;
+    height: 30%;
+    background-color: rgba(172, 213, 236, 0.2);
+    margin-right: 40px;
+  }
+}
+.test {
+  margin-top: 100px;
+  width: 80%;
+}
